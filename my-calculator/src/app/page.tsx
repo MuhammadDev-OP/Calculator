@@ -6,6 +6,7 @@ const Home = () => {
     <>
       <Wrapper>
         <div>Hello Calculator</div>
+        <p></p>
       </Wrapper>
     </>
   );
