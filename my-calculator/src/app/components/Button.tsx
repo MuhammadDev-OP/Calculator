@@ -9,21 +9,24 @@ const Button = ({ value }: any) => {
   return (
     <button
       className={`
+      shadow-md
     flex
     h-14 p-2.5
-    bg-stone-100
     items-center 
     justify-center
     rounded-full
     text-2xl
-    hover:outline-dashed shadow-md
+    hover:outline-dashed 
     ${
       isSpecialValue
         ? "text-green-500 font-bold"
         : "text-orange-500 bg-slate-700"
     }
     ${isEqualsButton ? "bg-green-500 text-white" : ""}
-    ${isEqualsButton && "bg-lime-500 col-span-2"}`}
+    ${
+      isEqualsButton &&
+      "bg-lime-500 hover:bg-rose-600 hover:text-3xl col-span-2"
+    }`}
     >
       {value}
     </button>
