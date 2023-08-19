@@ -1,7 +1,12 @@
 import React from "react";
+import { ReactNode } from "react";
 
-const buttonBox = () => {
-  return <div>buttonBox</div>;
+interface props {
+  children: ReactNode;
+}
+
+const ButtonBox = ({ children }: props) => {
+  return <div>{children}</div>;
 };
 
-export default buttonBox;
+export default ButtonBox;
