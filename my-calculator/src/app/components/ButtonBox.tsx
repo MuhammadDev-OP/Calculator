@@ -6,7 +6,7 @@ interface props {
 }
 
 const ButtonBox = ({ children }: props) => {
-  return <div>{children}</div>;
+  return <div className="grid grid-cols-4 gap-2">{children}</div>;
 };
 
 export default ButtonBox;
