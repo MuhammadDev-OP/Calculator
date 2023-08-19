@@ -1,12 +1,14 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
+import Screen from "./components/Screen";
+import ButtonBox from "./components/buttonBox";
 
 const Home = () => {
   return (
     <>
       <Wrapper>
-        <div>Hello Calculator</div>
-        <p></p>
+        <Screen />
+        <ButtonBox />
       </Wrapper>
     </>
   );
