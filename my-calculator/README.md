@@ -1,3 +1,4 @@
+![image](https://github.com/MuhammadDev-OP/Calculator/assets/85152396/5ed5113f-35ff-44e8-a147-b1979d86dbec)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
